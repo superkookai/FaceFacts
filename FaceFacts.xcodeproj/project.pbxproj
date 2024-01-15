@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF37ECED2B54DFED0070D674 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF37ECEC2B54DFED0070D674 /* Previewer.swift */; };
 		BF460E1E2B53A92C00AD45CD /* FaceFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E1D2B53A92C00AD45CD /* FaceFactsApp.swift */; };
 		BF460E202B53A92C00AD45CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E1F2B53A92C00AD45CD /* ContentView.swift */; };
 		BF460E222B53A92D00AD45CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF460E212B53A92D00AD45CD /* Assets.xcassets */; };
 		BF460E252B53A92D00AD45CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF460E242B53A92D00AD45CD /* Preview Assets.xcassets */; };
+		BF460E2C2B53AA3E00AD45CD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E2B2B53AA3E00AD45CD /* Person.swift */; };
+		BF460E2E2B53AEA900AD45CD /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E2D2B53AEA900AD45CD /* EditPersonView.swift */; };
+		BF460E302B53BB5900AD45CD /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E2F2B53BB5900AD45CD /* PeopleView.swift */; };
+		BF460E322B53CCA700AD45CD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E312B53CCA700AD45CD /* Event.swift */; };
+		BF460E342B53CE8D00AD45CD /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460E332B53CE8D00AD45CD /* EditEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF37ECEC2B54DFED0070D674 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
+		BF37ECEE2B54ECFE0070D674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BF460E1A2B53A92C00AD45CD /* FaceFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF460E1D2B53A92C00AD45CD /* FaceFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceFactsApp.swift; sourceTree = "<group>"; };
 		BF460E1F2B53A92C00AD45CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF460E212B53A92D00AD45CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF460E242B53A92D00AD45CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF460E2B2B53AA3E00AD45CD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BF460E2D2B53AEA900AD45CD /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		BF460E2F2B53BB5900AD45CD /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		BF460E312B53CCA700AD45CD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BF460E332B53CE8D00AD45CD /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		BF460E1C2B53A92C00AD45CD /* FaceFacts */ = {
 			isa = PBXGroup;
 			children = (
+				BF37ECEE2B54ECFE0070D674 /* Info.plist */,
 				BF460E1D2B53A92C00AD45CD /* FaceFactsApp.swift */,
 				BF460E1F2B53A92C00AD45CD /* ContentView.swift */,
+				BF460E2D2B53AEA900AD45CD /* EditPersonView.swift */,
+				BF460E2F2B53BB5900AD45CD /* PeopleView.swift */,
+				BF460E332B53CE8D00AD45CD /* EditEventView.swift */,
+				BF460E2B2B53AA3E00AD45CD /* Person.swift */,
+				BF460E312B53CCA700AD45CD /* Event.swift */,
+				BF37ECEC2B54DFED0070D674 /* Previewer.swift */,
 				BF460E212B53A92D00AD45CD /* Assets.xcassets */,
 				BF460E232B53A92D00AD45CD /* Preview Content */,
 			);
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF460E2C2B53AA3E00AD45CD /* Person.swift in Sources */,
+				BF460E302B53BB5900AD45CD /* PeopleView.swift in Sources */,
 				BF460E202B53A92C00AD45CD /* ContentView.swift in Sources */,
+				BF37ECED2B54DFED0070D674 /* Previewer.swift in Sources */,
 				BF460E1E2B53A92C00AD45CD /* FaceFactsApp.swift in Sources */,
+				BF460E322B53CCA700AD45CD /* Event.swift in Sources */,
+				BF460E2E2B53AEA900AD45CD /* EditPersonView.swift in Sources */,
+				BF460E342B53CE8D00AD45CD /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +331,7 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceFacts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
